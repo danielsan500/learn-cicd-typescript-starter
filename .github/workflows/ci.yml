@@ -7,7 +7,7 @@ on:
 jobs:
   tests:
     name: Tests
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
 
     steps:
       - name: Check out code
@@ -23,9 +23,9 @@ jobs:
       
       - name: run custom tests
         run: npm run test
-  Style:
-    name: Styles
-    runs-on: ubuntu-24.04
+  style:
+    name: Style
+    runs-on: ubuntu-latest
     steps:
      - name: Check out code
        uses: actions/checkout@v4

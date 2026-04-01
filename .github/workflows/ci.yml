@@ -36,5 +36,5 @@ jobs:
      - name: Install dependencies
        run: npm install
      - name: Style code
-       run: npm format:check
+       run: npm run format:check
     

@@ -24,7 +24,7 @@ jobs:
       - name: run custom tests
         run: npm run test
   Style:
-    name: Tests
+    name: Styles
     runs-on: ubuntu-24.04
     steps:
      - name: Check out code

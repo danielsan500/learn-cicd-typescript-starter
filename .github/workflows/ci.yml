@@ -23,7 +23,7 @@ jobs:
       
       - name: run custom tests
         run: npm run test
-  style:
+  Style:
     name: Tests
     runs-on: ubuntu-24.04
     steps:

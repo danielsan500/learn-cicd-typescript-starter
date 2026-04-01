@@ -1,9 +1,9 @@
 import { IncomingHttpHeaders } from "http";
 
-export function getAPIKeyy(headers: IncomingHttpHeaders): string | null {
+export function getAPIKey(headers: IncomingHttpHeaders): string | null {
   const authHeader = headers["authorization"];
   if (!authHeader) {
-    return null;
+    return 'no';
   }
 
   const splitAuth = authHeader.split(" ");

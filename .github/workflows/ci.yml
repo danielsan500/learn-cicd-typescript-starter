@@ -24,6 +24,9 @@ jobs:
       - name: run custom tests
         run: npm run test
   style:
+    name: Tests
+    runs-on: ubuntu-24.04
+    steps:
      - name: Check out code
        uses: actions/checkout@v4
      - name: Set up Node
